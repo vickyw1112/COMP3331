@@ -10,7 +10,7 @@ do
 	let "realsize = size - 28"
 	echo "ping -s $realsize -c 50 -i 1 $1 > $1-p$size"
 	# call ping (100 packets) and write to file
-	ping -s $realsize -c 50 -i 1 $1 > $1-p$size
+	ping -s $realsize -c 50 -i 1 $1 > $1-p$size &
 done  
 
 echo; echo
