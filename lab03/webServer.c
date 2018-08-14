@@ -64,7 +64,7 @@ int main(int argc, char const *argv[]){
         int fd;
         if((fd = open(query + 1, O_RDONLY)) < 0){
             perror(NULL);
-            char *msg = "HTTP/1.1 404 Not Found\r\n\r\n";
+            char *msg = "HTTP/1.1 404 Not Found\r\nConnection: close \r\nContent-Type: text/html\r\n\r\n<html><body>404 Not Found<body><html>";
             write(ss, msg, strlen(msg));
             fclose(ss_stream);
             continue;
