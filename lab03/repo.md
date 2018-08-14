@@ -83,6 +83,7 @@ Q6:
 
     type=NS
 Q7:
+
     No. the server does not provide recursive query
 
 Q8:
