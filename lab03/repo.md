@@ -83,8 +83,7 @@ Q6:
 
     type=NS
 Q7:
-
-    yes, it has answer in the authority section, but it is different when I query it many times. 
+    No. the server does not provide recursive query
 
 Q8:
 
