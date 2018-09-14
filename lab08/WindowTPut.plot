@@ -1,3 +1,5 @@
+set term png
+set out "haha.png"
 set xlabel "time [s]"
 set ylabel "Throughput [packets/sec]"
 set key bel

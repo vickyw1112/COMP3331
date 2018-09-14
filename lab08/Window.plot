@@ -1,3 +1,5 @@
+set term png
+set out "ansG.png"
 set xlabel "time [s]"
 set ylabel "Window size"
 set key bel
