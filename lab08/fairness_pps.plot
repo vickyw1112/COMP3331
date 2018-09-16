@@ -1,3 +1,5 @@
+set  term png
+set out "fair.png"
 set xlabel "time [s]"
 set ylabel "throughput [pkts/s]"
 set key bel

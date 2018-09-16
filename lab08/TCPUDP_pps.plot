@@ -1,3 +1,5 @@
+set term png
+set out "tcp.png"
 set xlabel "time [s]"
 set ylabel "Throughput [packets/s]"
 set key bel
