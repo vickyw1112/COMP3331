@@ -13,7 +13,7 @@ set file2 [open out.nam w]
 $ns namtrace-all $file2
 
 
-#$ns rtproto DV
+$ns rtproto DV
 
 #Define a 'finish' procedure
 proc finish {} {
@@ -81,8 +81,8 @@ $ns attach-agent $n5 $null0
 $ns connect $udp0 $null0 
 $ns connect $udp1 $null0 
 
-#$ns rtmodel-at 1.0 down $n1 $n4
-#$ns rtmodel-at 1.2 up $n1 $n4
+$ns rtmodel-at 1.0 down $n1 $n4
+$ns rtmodel-at 1.2 up $n1 $n4
 
 #$ns cost $n1 $n4 3
 
