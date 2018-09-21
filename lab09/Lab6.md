@@ -223,7 +223,7 @@ Offset: 0
 
 Q4:
 
-Yes, because MTU is only 1500 bytes, data size is greater than MTU.
+No, because the routers have same MTU.
 
 Q5:
 
